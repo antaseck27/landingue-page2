@@ -1,0 +1,46 @@
+  @media screen and (max-width:768px){
+    
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 0PX;
+    height: 0px; 
+    padding: 0PX;
+ }
+ .navbar a{
+     font-size: 20PX;
+    
+ }
+ .bakeli{
+    height: 400px;
+   
+}
+.bakeli h2{
+    background-color: rgb(113, 107, 107);
+    width: 250px;
+    height: 30PX;
+    position: relative;
+    left: 70PX;
+     top: 110PX; 
+    text-align: center;
+    padding: 0px;
+    font-size: 15PX;
+   
+}
+.bakeli .icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 90PX; 
+}
+.icone img{
+    width: 120PX; 
+}
+.design .circulaire{
+   display: flex;
+   flex-direction: column;
+   margin: 15px;
+   gap: 10PX;
+}   
+}

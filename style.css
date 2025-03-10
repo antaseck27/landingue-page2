@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: PX solid red;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50PX;
+   /* height: 50px; */
+   padding: 20PX;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20PX;
+   
+}
+.bakeli{
+    background-image: url(bagimage.jpeg);
+    height: 520px;
+   
+}
+.bakeli h2{
+     background-color: rgb(113, 107, 107); 
+    width: 350px; 
+     height: 60PX; 
+    position: relative;
+    left: 550PX; 
+     top: 120PX; 
+    text-align: center;
+    padding: 20px;
+   
+}
+.bakeli P{
+    text-align: center;
+    position: relative;
+    top: 90PX;
+    color: white;
+}
+/* .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.bakeli .icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 90PX;
+}
+.icone img{
+    border-radius: 10%;
+   width: 200PX;
+}
+
+
+.design{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    /* padding: 100PX; */
+    /* display: flex;
+    flex-direction: row; */
+   
+}
+.design .circulaire{
+    display: flex;
+    flex-direction: row;
+    gap: 100PX;
+    /* gap: 60px; */
+    /* margin-left: 240px; */
+    /* width: 100%;
+    height: 100%; */
+}
+
+
+
+.design .pro img{
+    width: 150PX;
+    height: 150px;
+    border-radius: 50%;
+    border: solid rgb(28, 198, 68);
+    padding: 10PX;
+}
+
+.design .des img{
+    width: 150PX;
+    height: 150px;
+    border-radius: 50%;
+    border: solid rgb(28, 198, 68);
+    padding: 20PX;
+
+}
+
+.design .mark img{
+    width: 150PX;
+    height: 150px;
+    border-radius: 50%;
+    border: solid rgb(28, 198, 68);
+    padding: 10PX;
+    
+}
+.bakelibag{
+    background-color: rgba(172, 163, 163, 0.24);
+    padding: 80PX;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.navbak {
+    text-align: center;
+   
+}
+.bakelibag h1{
+    text-align: center;
+    font-size: 30px;
+}
+.navbak a{
+    text-decoration: none;
+    margin: 30PX;
+    color: black;
+    font-size: 20px;
+}
+.grid{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr );
+   grid-auto-rows: 300px;
+   
+   
+ }
+ .tof{
+    background-color: aqua;
+ }
+ .word{
+   grid-column: 1/2;
+   grid-row: 1/2;
+   background-image: url(word-press.jpeg);
+   background-size: cover;
+ }
+ .html{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(html-css.jpeg);
+    background-size: cover;
+ }
+ .canva{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(canva.jpeg);
+    background-size: cover;
+ }
+ .js{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-image: url(js.jpeg);
+    background-size: cover;
+ }
+ .java{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url(java.jpeg);
+    background-size: cover;
+ }
+ .scap{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(scap.jpeg);
+    background-size: cover;
+ }
+ .ae{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(aee.jpeg);
+    background-size: cover;
+ }
+ .python{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-image: url(python.jpeg);
+    background-size: cover;
+ }
+ 
+.blanc{
+ 
+    /* width: 100%; */
+    /* height: 600PX; */
+    /* position: relative;
+    /* top: 100PX; */
+
+}
+.blanc h1{
+    font-size: 40px;
+    padding-top: 0px;
+    text-align: center;
+}
+.blanc p{
+    text-align: center;
+    padding-top: 20px;
+
+  
+} 
+
+.blanc .progress-group{
+  padding: 100PX;
+    
+}
+.blanc .progress-container{
+    width: 40%;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.blanc .progress-bar{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px; 
+    background-color: rgba(120, 146, 120, 0.683);
+}
+
+.blanc .progress-container1{
+    width: 40%;
+    height: 20PX;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.blanc .progress-bar1{
+    width: 80%; 
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(120, 146, 120, 0.683);
+
+}
+
+.blanc .progress-container2{
+    width: 40%;
+    height: 20PX;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+.blanc .progress-bar2{
+    width: 90%; 
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(120, 146, 120, 0.683);
+}
+
+.blanc .progress-container3{
+    width: 40%;
+    height: 20PX;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  
+}
+.blanc .progress-bar3{
+    width: 70%; 
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(120, 146, 120, 0.683);
+}
+.percentage {
+    color: rgb(14, 13, 13);
+    
+}
+
+.text {
+   
+    color: rgb(7, 7, 7);
+    font-size: 16px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+span{
+   position: relative;
+  bottom: 40px; 
+  
+}
+.span{
+     display: flex;
+     justify-content: space-between;
+}
+.vert{
+    background-color: rgba(95, 147, 95, 0.62);
+    padding: 20px;
+}
+.vert h3{
+   text-align: center;
+   color: white;
+   font-size: 25px;
+   padding: 40PX;
+}
+.vert p{
+    text-align: center;
+    color: white;
+}
+.vt{
+   
+}
+
+.vertgrid{
+   
+    /* margin-bottom: 180PX; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180PX,1fr));
+    justify-content: center;
+    /* grid-auto-rows: 280px; */
+    /* grid-gap: 30px; */
+    /* height: 100VH; */
+    /* position: relative;
+    top: 220PX; */
+}
+
+
+.bas-vert{
+    height: 300PX;
+    padding: 50px;
+    
+
+}
+.bas-vert img{
+    width: 70PX;
+    margin-left: 600px;
+   
+}
+.bas-vert p{
+    text-align: center;
+    padding: 20px;
+  
+}
+.bas-vert h5{
+    text-align: center;
+    font-size: 15PX;
+    margin-top: 60PX;
+
+}
+
+
+footer{
+    background-color: rgba(124, 121, 121, 0.243);
+    width: auto;
+    height: 550PX;
+    padding: 20px;
+}
+footer h2{
+    text-align: center;
+}
+footer h3{
+    text-align: center;
+    padding: 100px;
+}
+.bas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h6{
+    text-align: center;
+   
+}
+

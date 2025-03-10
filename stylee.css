@@ -21,13 +21,14 @@
     .bakeli h2{
         background-color: rgb(113, 107, 107);
         width: 250px;
-        height: 30PX;
+        height: 60PX;
         position: relative;
         left: 70PX;
          top: 110PX; 
         text-align: center;
-        padding: 0px;
+        padding: 20px;
         font-size: 15PX;
+        
        
     }
     .bakeli .icone{
